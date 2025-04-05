@@ -1,0 +1,19 @@
+---
+import TopBar from "./TopBar.astro";
+import SystemContainer from "./SystemContainer.astro";
+import { FunctionsPreviews } from "../../sections";
+---
+
+<div
+  class="w-screen h-screen grid font-outfit"
+  style="grid-template-columns: 75% 25%;"
+>
+  <div class="w-full h-full flex flex-col">
+    <TopBar />
+    <SystemContainer />
+  </div>
+
+  <!-- FUNCTIONS PREVIEWS -->
+  <FunctionsPreviews />
+  <!-- FUNCTIONS PREVIEWS -->
+</div>
